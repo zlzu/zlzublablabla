@@ -1,0 +1,543 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: url(../IMAGE/back1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+.nav_bg_color {
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-brand {
+    color: aliceblue;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: aliceblue;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: aliceblue;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 0, 123);
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255, 0, 123);
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 0, 123);
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: aliceblue;
+}
+/* HOME 页面中标签字体颜色 */
+.navbar-nav .nav-item.active > .nav-link,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show,
+.navbar-nav .show > .nav-link {
+    color: #ffffff !important; /* 设置 HOME 导航项的颜色为白色 */
+}
+
+
+/* 樣式媒體查詢 */
+@media (max-width: 767px) {
+    .navbar-toggler-icon {
+        background-color: rgba(253, 163, 226, 0.301);
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-toggler-icon {
+        background-color: rgba(253, 163, 226, 0.301);
+    }
+}
+
+/* 頁尾樣式 */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    color: #ffffff;
+}
+
+/* 背景圖片樣式 */
+.bg_1,
+.bg_2,
+.bg_3,
+.bg_4 {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    /* 調整圖片高度，可以根據需要調整 */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+/* 背景顏色樣式 */
+.color_1,
+.color_2,
+.color_3 {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    /* 調整方塊高度，可以根據需要調整 */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* 固定背景樣式 */
+.fixed_bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 額外樣式 */
+div {
+    display: block;
+}
+
+.shadow {
+    text-shadow: 12px 12px 10px rgba(133, 116, 89, 0.9);
+}
+
+.vcenter {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.row {
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-12 {
+    flex: 50%;
+    max-width: 100%;
+    padding: 15px;
+}
+
+.container .box.text-center {
+    max-width: 540px;
+    width: 100%;
+    /* 添加 100% 宽度，以确保在小屏幕上内容占满整个屏幕宽度 */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* 隱藏水平滾動條 */
+}
+
+body {
+    background-image: url(../IMAGE/back1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    align-items: center;
+    font-family: arial, helvetica, sans-serif, 微軟正黑體;
+}
+
+/* Navbar 樣式 */
+.nav_bg_color {
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: aliceblue;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255, 0, 123);
+}
+
+/* 樣式媒體查詢 */
+@media (max-width: 767px) {
+    .navbar-toggler-icon {
+        background-color: rgba(253, 163, 226, 0.301);
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-toggler-icon {
+        background-color: rgba(253, 163, 226, 0.301);
+    }
+}
+
+/* 頁尾樣式 */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    color: #ffffff;
+}
+
+.bg_1,
+.bg_2,
+.bg_3,
+.bg_4 {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-attachment: fixed;
+    /* 固定背景图片 */
+}
+
+
+/* 背景顏色樣式 */
+.color_1,
+.color_2,
+.color_3 {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    /* 調整方塊高度，可以根據需要調整 */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* 固定背景樣式 */
+.fixed_bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 額外樣式 */
+div {
+    display: block;
+}
+
+.shadow {
+    text-shadow: 12px 12px 10px rgba(133, 116, 89, 0.9);
+}
+
+.vcenter {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.row {
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-12 {
+    flex: 50%;
+    max-width: 100%;
+    padding: 15px;
+}
+
+.container .box.text-center {
+    max-width: 540px;
+    width: 100%;
+    /* 添加 100% 宽度，以确保在小屏幕上内容占满整个屏幕宽度 */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.box {
+    background-color: rgba(250, 165, 165, 0.658);
+    text-align: center;
+    max-width: 540px;
+    /* 添加最大宽度，限制盒子在较大屏幕上的宽度 */
+    width: 90%;
+    /* 使用百分比宽度，以确保在小屏幕上适应 */
+    margin-left: auto;
+    /* 将左边距设置为自动，使其在容器中水平居中 */
+    margin-right: auto;
+    /* 将右边距设置为自动，使其在容器中水平居中 */
+}
+
+
+.bg_1 {
+    background-image: url(../IMAGE/image1.jpg);
+}
+
+.bg_2 {
+    background-image: url(../IMAGE/image2.jpg);
+}
+
+.bg_3 {
+    background-image: url(../IMAGE/image3.jpg);
+}
+
+.bg_4 {
+    background-image: url(../IMAGE/image4.jpg);
+}
+
+.color_1 {
+    background-color: rgb(255, 207, 207);
+}
+
+.color_2 {
+    background-color: rgb(251, 180, 180);
+}
+
+.color_3 {
+    background-color: rgb(253, 184, 184);
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    /* 將高度設定為 100% */
+    position: relative;
+}
+
+/* 修正 color_1 的字體樣式 */
+.color_1 {
+    background-color: rgb(255, 207, 207);
+    color: black;
+    /* 調整字體顏色為黑色，以避免與背景色對比不明顯 */
+    padding: 10px;
+    /* 調整 padding 以達到文字距離方框的邊緣距離 */
+    max-width: 540px;
+    /* 調整最大寬度，限制文字的寬度，根據需要調整 */
+    margin: 0 auto;
+    /* 將 margin 設定為 auto 使其水平置中 */
+    height: 400px;
+}
+
+.color_2 {
+    background-color: rgb(255, 207, 207);
+    color: black;
+    /* 調整字體顏色為黑色，以避免與背景色對比不明顯 */
+    padding: 10px;
+    /* 調整 padding 以達到文字距離方框的邊緣距離 */
+    max-width: 540px;
+    /* 調整最大寬度，限制文字的寬度，根據需要調整 */
+    margin: 0 auto;
+    /* 將 margin 設定為 auto 使其水平置中 */
+    height: 200px;
+
+}
+
+.color_3 {
+    background-color: rgb(255, 207, 207);
+    color: black;
+    /* 調整字體顏色為黑色，以避免與背景色對比不明顯 */
+    padding: 10px;
+    /* 調整 padding 以達到文字距離方框的邊緣距離 */
+    max-width: 540px;
+    /* 調整最大寬度，限制文字的寬度，根據需要調整 */
+    margin: 0 auto;
+    /* 將 margin 設定為 auto 使其水平置中 */
+    height: 200px;
+
+}
+
+.color_4 {
+    background-color: rgb(255, 207, 207);
+    color: black;
+    /* 調整字體顏色為黑色，以避免與背景色對比不明顯 */
+    padding: 10px;
+    /* 調整 padding 以達到文字距離方框的邊緣距離 */
+    max-width: 540px;
+    /* 調整最大寬度，限制文字的寬度，根據需要調整 */
+    margin: 0 auto;
+    /* 將 margin 設定為 auto 使其水平置中 */
+    height: 200px;
+
+}
+
+.box {
+    background-color: rgba(250, 165, 165, 0.658);
+    text-align: center;
+    max-width: 540px;
+    /* 添加最大宽度，限制盒子在较大屏幕上的宽度 */
+    width: 90%;
+    /* 使用百分比宽度，以确保在小屏幕上适应 */
+    margin-left: auto;
+    /* 将左边距设置为自动，使其在容器中水平居中 */
+    margin-right: auto;
+    /* 将右边距设置为自动，使其在容器中水平居中 */
+}
+
+
+.bg_1 {
+    background-image: url(../IMAGE/image1.jpg);
+}
+
+.bg_2 {
+    background-image: url(../IMAGE/image2.jpg);
+}
+
+.bg_3 {
+    background-image: url(../IMAGE/image3.jpg);
+}
+
+.bg_4 {
+    background-image: url(../IMAGE/image4.jpg);
+}
+
+.color_1 {
+    background-color: rgb(255, 207, 207);
+}
+
+.color_2 {
+    background-color: rgb(251, 180, 180);
+}
+
+.color_3 {
+    background-color: rgb(253, 184, 184);
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    /* 將高度設定為 100% */
+    position: relative;
+}
+
+/* 修正 color_1 的字體樣式 */
+.color_1 {
+    background-color: rgb(255, 207, 207);
+    color: black;
+    /* 調整字體顏色為黑色，以避免與背景色對比不明顯 */
+    padding: 10px;
+    /* 調整 padding 以達到文字距離方框的邊緣距離 */
+    max-width: 540px;
+    /* 調整最大寬度，限制文字的寬度，根據需要調整 */
+    margin: 0 auto;
+    /* 將 margin 設定為 auto 使其水平置中 */
+    height: 200px;
+}
+
+.color_2 {
+    background-color: rgb(255, 207, 207);
+    color: black;
+    /* 調整字體顏色為黑色，以避免與背景色對比不明顯 */
+    padding: 10px;
+    /* 調整 padding 以達到文字距離方框的邊緣距離 */
+    max-width: 540px;
+    /* 調整最大寬度，限制文字的寬度，根據需要調整 */
+    margin: 0 auto;
+    /* 將 margin 設定為 auto 使其水平置中 */
+    height: 200px;
+
+}
+
+.color_3 {
+    background-color: rgb(255, 207, 207);
+    color: black;
+    /* 調整字體顏色為黑色，以避免與背景色對比不明顯 */
+    padding: 10px;
+    /* 調整 padding 以達到文字距離方框的邊緣距離 */
+    max-width: 540px;
+    /* 調整最大寬度，限制文字的寬度，根據需要調整 */
+    margin: 0 auto;
+    /* 將 margin 設定為 auto 使其水平置中 */
+    height: 200px;
+
+}
+
+.color_4 {
+    background-color: rgb(255, 207, 207);
+    color: black;
+    /* 調整字體顏色為黑色，以避免與背景色對比不明顯 */
+    padding: 10px;
+    /* 調整 padding 以達到文字距離方框的邊緣距離 */
+    max-width: 540px;
+    /* 調整最大寬度，限制文字的寬度，根據需要調整 */
+    margin: 0 auto;
+    /* 將 margin 設定為 auto 使其水平置中 */
+    height: 200px;
+
+}
+
+
+/* 图片样式 */
+.box img {
+    max-width: 100%;
+    /* 图片最大宽度为其父元素的宽度 */
+    height: auto;
+    /* 保持原始高宽比 */
+}

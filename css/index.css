@@ -1,0 +1,145 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: url(../IMAGE/back1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.nav-item{
+    font-size: 20px;
+}
+.nav_bg_color {
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-brand {
+    color: aliceblue;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: aliceblue;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: aliceblue;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: aliceblue;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 0, 123);
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255, 0, 123);
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 0, 123);
+}
+
+
+
+.FIRST p {
+    font-family: Microsoft JhengHei;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .navbar-toggler-icon {
+        background-color: rgba(253, 163, 226, 0.301);
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-toggler-icon {
+        background-color: rgba(253, 163, 226, 0.301);
+    }
+}
+
+
+
+.FIRST {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 350px 0%;
+}
+
+blockquote {
+    color: #ffffff;
+    /* 白色文字 */
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+}
+
+footer {
+    background-color: black;
+    color: rgb(192, 192, 192);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin-right: 15px;
+    /* 可以根據需要調整間距 */
+}
+
+.navbar-nav .navbar-collapse {
+    justify-content: flex-end;
+    /* 將漢堡放置在右邊 */
+}
+.full-width-box {
+    background-color: #ffdaca; /* 方塊背景顏色 */
+    color: #ffffff; /* 字體顏色 */
+    padding: 20px; /* 內間距 */
+    text-align: center; /* 文字置中 */
+    height: 300px; /* 調整方塊高度，根據需要修改 */
+}
